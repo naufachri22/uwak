@@ -1,0 +1,6 @@
+export default function TentangPage() {
+  return <>
+    <section className="page-hero"><div className="container page-heading"><span className="kicker">Tentang platform</span><h1>Belajar dengan praktik nyata</h1><p>Maharah Kalam dirancang sebagai media belajar mandiri untuk membantu pengguna membangun keberanian dan keterampilan berbicara Bahasa Arab.</p></div></section>
+    <section className="content-section"><div className="container" style={{maxWidth:820}}><div className="content-panel"><div className="phrase-arabic" style={{fontSize:38}}>مَهَارَةُ الْكَلَامِ</div><h2 style={{color:"var(--forest)"}}>Apa itu Mahārah Kalām?</h2><p style={{color:"var(--muted)",lineHeight:1.9,fontSize:14}}>Mahārah Kalām adalah keterampilan berbicara dalam pembelajaran Bahasa Arab. Keterampilan ini mencakup kemampuan mengungkapkan ide, menyampaikan informasi, bertanya, menjawab, dan berinteraksi secara lisan menggunakan Bahasa Arab.</p><h3 style={{color:"var(--forest)"}}>Prinsip pembelajaran</h3><ul style={{color:"var(--muted)",lineHeight:2,fontSize:14}}><li>Berorientasi pada komunikasi.</li><li>Dimulai dari ungkapan sederhana dan kontekstual.</li><li>Menggabungkan kosakata, pelafalan, dan percakapan.</li><li>Mendorong latihan berulang dan evaluasi mandiri.</li></ul></div></div></section>
+  </>;
+}
